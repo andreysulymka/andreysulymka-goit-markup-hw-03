@@ -42,7 +42,7 @@ font-weight: 500}
         font-size: 26px;
         line-height: 1.19;
         }
-        
+
 .header-logo {
 margin-left: 215px;
 }
@@ -87,7 +87,8 @@ text-decoration: none;
 /* Hero */
 .hero-main {
     background-color: var(--second-background-color);
-}
+    padding-top: 94px;
+padding-bottom: 94px;}
 .hero-logo {
     color: var(--white-color);
     font-family: 'Roboto';

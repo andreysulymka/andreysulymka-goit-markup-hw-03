@@ -120,14 +120,29 @@ text-decoration: none;
     }
     
 /* Preference */
+.prefernce-cont {
+padding: 94px 215px 0px 215px;
+}
+.pref-flex {
+    display: flex;
+    padding-top: 94px;
+    margin-left: 215px;
+    margin-right: 10px;
+}
 .preference-title {
+        
     font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase
-}
+        }
+    .prefernce-title:not(:last-child) {
+        margin-right: 30px;
+    }
 .preference-info {
+    margin-top: 10px;
+
     font-weight: 400;
         font-size: 14px;
         line-height: 1.71;    
@@ -135,16 +150,52 @@ text-decoration: none;
         color: var(--second-text-color);
 }
 .work-logo {
+    padding-top: 94px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
+    width: 376px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;}
+    
+.work-cont {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 10px;
+    padding-bottom: 94px;
+}
+.work-photo:not(:last-child) {
+    margin-right: 30px;
+}
 
 
 /* Team */
 .team {
     background-color: var(--white-color);
 }
+.team-logo {
+    padding-top: 94px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    
+        width: 264px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+    }
+.team-cont {
+    display: flex;
+    padding-bottom: 94px;
+}
+.team-card:not(:last-child) {
+    margin-right: 30px;
+}
 .team-people {
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-size: 16px;
     line-height: 1.19;
 }

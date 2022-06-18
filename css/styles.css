@@ -87,10 +87,12 @@ text-decoration: none;
 /* Hero */
 .hero-main {
     background-color: var(--second-background-color);
-    padding-top: 94px;
-padding-bottom: 94px;}
+    padding-bottom: 200px;
+    padding-top: 200px;
+    
+}
 .hero-logo {
-    color: var(--white-color);
+     color: var(--white-color);
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
@@ -106,6 +108,7 @@ padding-bottom: 94px;}
 }
 .hero-button {
     display: block;
+   
     background-color: var(--accent-color);
     color: var(--white-color);
     font-style: normal;
@@ -113,8 +116,9 @@ padding-bottom: 94px;}
         font-size: 16px;
         line-height: 1.88;
         margin-left: auto;
-            margin-right: auto;
-       }
+        margin-right: auto;
+    }
+    
 /* Preference */
 .preference-title {
     font-weight: 700;

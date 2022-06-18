@@ -37,10 +37,17 @@ font-weight: 500}
         line-height: 1.19;
         }
 
+.header-nav-list {
+    display: flex;
+}
+
 .header-list:hover, 
 .header-list:focus {color: var(--accent-color);}
-.header-list {color: var(--primary-text-color);
-text-decoration: none;}
+.header-list {
+    display: flex;
+    color: var(--primary-text-color);
+text-decoration: none;
+}
 .current {
     color: var(--accent-color);
 text-decoration: none;}

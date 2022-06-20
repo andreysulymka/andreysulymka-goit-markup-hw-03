@@ -36,6 +36,7 @@ border-bottom: 1px solid #EEEEEE;}
 font-weight: 500}
 .logo {color: var(--accent-color);}
 .all-logo {
+    margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 25px;
     
@@ -49,8 +50,12 @@ font-weight: 500}
 .header-nav-list{
     display: flex;
     align-items: center;
-    margin-left: 93px;
+    margin-left: auto;
     }
+.item:not(:last-child) {
+    margin-right: 50px;
+}
+
 .header-list:hover, 
 .header-list:focus {color: var(--accent-color);}
 .header-list {
@@ -70,9 +75,10 @@ text-decoration: none;
     text-decoration: none;
     color: var(--second-text-color);
    }
-.header-contact:first-child {
+.header-mail {
     margin-right: 50px;
 }
+
 .contact-list {
     display: flex;
     margin-left: auto;
@@ -80,9 +86,7 @@ text-decoration: none;
 .header-nav {
     display: flex;
 }
-.item:not(:last-child){
-    margin-right: 50px;
-}
+
 
 /* Hero */
 .hero-main {
@@ -126,8 +130,7 @@ padding: 94px 0px 94px 0px;
 .pref-flex {
     display: flex;
     padding-top: 94px;
-    margin-right: 10px;
-}
+    }
 .preference-title {
         
     font-weight: 700;
@@ -136,18 +139,20 @@ padding: 94px 0px 94px 0px;
         letter-spacing: 0.03em;
         text-transform: uppercase
         }
-    .prefernce-title:not(:last-child) {
-        margin-right: 30px;
-    }
+.pref-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 .preference-info {
     margin-top: 10px;
-
+    
     font-weight: 400;
         font-size: 14px;
         line-height: 1.71;    
         letter-spacing: 0.03em;
         color: var(--second-text-color);
 }
+
 .work-logo {
     padding-top: 94px;
     margin-left: auto;
@@ -268,10 +273,9 @@ margin-right: 10px;
             }
         .work-background {
             background-color: #EEEEEE;
+            border: 1px solid #EEEEEE;
         }
-        .portfolio-card {
-        /* border: 1px solid #EEEEEE; */
-        }
+        
         .work-background:nth-child(3n) {
             margin-right: 0px;
         }
@@ -295,8 +299,7 @@ line-height: 1.19;
     background-color: var(--second-background-color);
     color: var(--white-color);
 }
-    .footer-cont {
-    }
+    
 .footer-list {
     text-decoration: none;
     font-size: 14px;

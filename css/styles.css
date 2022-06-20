@@ -29,7 +29,9 @@ ul {list-style: none;}
 /* Header */
 .header-container {
  display: flex;
-align-items: center;}
+align-items: center;
+border-bottom: 1px solid #EEEEEE;}
+
 .header {background-color: var(--white-color);
 font-weight: 500}
 .logo {color: var(--accent-color);}
@@ -44,9 +46,6 @@ font-weight: 500}
         line-height: 1.19;
         }
 
-.header-logo {
-margin-left: 215px;
-}
 .header-nav-list{
     display: flex;
     align-items: center;
@@ -122,12 +121,11 @@ text-decoration: none;
     
 /* Preference */
 .prefernce-cont {
-padding: 94px 215px 0px 215px;
+padding: 94px 0px 94px 0px;
 }
 .pref-flex {
     display: flex;
     padding-top: 94px;
-    margin-left: 215px;
     margin-right: 10px;
 }
 .preference-title {
@@ -163,7 +161,6 @@ padding: 94px 215px 0px 215px;
     
 .work-cont {
     display: flex;
-    margin-left: 215px;
     margin-right: 30px;
     padding-bottom: 94px;
 }
@@ -192,9 +189,12 @@ padding: 94px 215px 0px 215px;
     justify-content: center;
     padding-bottom: 94px;
 }
+.team-card {
+    border: 1px solid #EEEEEE;
+}
 .team-card:not(:last-child) {
     margin-right: 30px;
-}
+  }
 .team-people {
     margin-top: 30px;
     margin-bottom: 10px;
@@ -268,7 +268,10 @@ margin-right: 10px;
             }
         .work-background {
             background-color: #EEEEEE;
-            }
+        }
+        .portfolio-card {
+        border: 1px solid #EEEEEE;
+        }
         .work-background:nth-child(3n) {
             margin-right: 0px;
         }
@@ -293,7 +296,6 @@ line-height: 1.19;
     color: var(--white-color);
 }
     .footer-cont {
-        margin-left: 215px;
     }
 .footer-list {
     text-decoration: none;

@@ -10,6 +10,11 @@ h1,h2,h3,h4,ul,p {
     margin: 0;
     padding: 0;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 body {
     background-color: var(--white-color);
     color: var(--primary-text-color);
@@ -229,7 +234,12 @@ margin-right: 10px;
     flex-wrap: wrap;
     gap: 30px;
     padding-bottom: 94px;
-}
+    }
+    .portfolio-card {
+        border-right: 1px solid #EEEEEE;
+        border-bottom: 1px solid #EEEEEE;
+        border-left: 1px solid #EEEEEE;
+    }
     .sort-button:hover,
     .sort-button:focus {
         background-color: var(--accent-color);
@@ -253,7 +263,6 @@ margin-right: 10px;
             background-color: var(--accent-color);
             color: var(--white-color);
         }
-        /* Works */
         .works-title {
             margin-top: 20px;
             margin-bottom: 4px;
